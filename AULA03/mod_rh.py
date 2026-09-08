@@ -1,9 +1,5 @@
 def cadastrar_colaborador(nome: str, cargo: str, salario: float) -> dict:
-    colaborador = {
-        "nome": nome,
-        "cargo": cargo,
-        "salario": salario
-    }
+    colaborador = {"nome": nome, "cargo": cargo, "salario": salario}
 
     return colaborador
 
